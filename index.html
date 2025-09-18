@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Presentación e historia de algunos demonios y sus respectivas razas de la franquicia de videojuegos SMT (Shin Megami Tensei)">
-    <meta name="keywords" content="Shin Megami Tensei, SMT, JRPG, Atlus, Sega, videojuego, multiplataforma">
+    <meta name="keywords"
+        content="Shin Megami Tensei, SMT, JRPG, Atlus, SEGA, videojuego, multiplataforma, 2025, mitología, ángeles, demonios, cyberpunk">
     <meta property="og:locale" content="es_ES">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Proyecto 1">
     <meta property="og:url" content="/">
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap">
+    <link rel="preconnect" href="https://use.typekit.net/nge6qnq.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="public\img\icon\Smtjapaneselogo.webp" type="image/png">
     <title>Proyecto 1</title>
@@ -18,8 +22,7 @@
 
 <body>
     <header>
-        <img src="public\img\smt_logo.png"
-            alt="Arte del título de la saga de videojuegos Shin Megami Tensei">
+        <img src="public\img\smt_logo.png" alt="Arte del título de la saga de videojuegos Shin Megami Tensei">
         <nav>
             <ul>
                 <li>
@@ -47,6 +50,7 @@
     </section>
     <main>
         <h1>Razas</h1>
+        <div class="border"></div>
         <h2>Herald</h2>
         <section id="herald">
             <article>
@@ -155,7 +159,30 @@
         </section>
     </main>
     <footer>
-        <p></p>
+        <div class="footer-container">
+            <div class="footer-redes">
+                <h3>Sígueme</h3>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Github</a></li>
+                </ul>
+            </div>
+            <div class="footer-form">
+                <h3>Añade el demonio que quieras &#8595;</h3>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" required>
+                    <label for="mensaje">Mensaje:</label>
+                    <input type="text" id="mensaje" required></input>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2025 SEGA/Atlus. Todos los derechos pertenecen a SEGA/Atlus. Esto es un fanmade.</p>
+            </div>
+        </div>
     </footer>
 </body>
 
